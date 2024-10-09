@@ -1,6 +1,17 @@
 /*
 Main body details
 */
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('woff2');
+}
+
+@font-face{
+    font-family: 'YoungSerif';
+    font-style: normal;
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('woff2');
+}
 
 body {
     background-color: hsl(30, 54%, 90%);
