@@ -1,0 +1,61 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+page {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+recipe {
+    font-size: xx-large;
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif';
+}
+
+
+prep {
+    background-color: hsl(330, 100%, 98%);
+    padding: 0px 10px 0px 20px;
+    border-radius: 10px;
+}
+
+prep p {
+    color: purple;
+    font-weight: 600;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.heading {
+    font-family: 'Young Serif';
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+}
+
+span {
+    font-weight: 700;
+}
+.thick {
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+}
+table {
+    width: 100%;
+}
+
+td, ingredients, instructions {
+    border-bottom: 1px solid #ddd;
+}
