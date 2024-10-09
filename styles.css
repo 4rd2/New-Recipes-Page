@@ -1,3 +1,7 @@
+/*
+Main body details
+*/
+
 body {
     background-color: hsl(30, 54%, 90%);
     display: flex;
@@ -6,24 +10,46 @@ body {
     font-family: 'Outfit';
     font-size: 16px;
     color: hsl(30, 10%, 34%);
+    line-height: 150%;
 }
 
 page {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    width: 500px;
-    gap: 20px;
+    width: 700px;
+    gap: 30px;
     padding: 30px;
     border-radius: 20px;
 }
+
+.heading {
+    font-family: 'Young Serif';
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+}
+
+td, ingredients, instructions {
+    border-bottom: 1px solid #ddd;
+}
+/*
+Image section
+*/
+img {
+    border-radius: 10px;
+}
+/*
+Title and Summary section
+*/
 recipe {
     font-size: xx-large;
     color: hsl(24, 5%, 18%);
     font-family: 'Young Serif';
 }
 
-
+/*
+Prep section
+*/
 prep {
     background-color: hsl(330, 100%, 98%);
     padding: 0px 10px 0px 20px;
@@ -33,29 +59,53 @@ prep {
 prep p {
     color: purple;
     font-weight: 600;
+    font-size: large;
 }
 
-img {
-    border-radius: 10px;
+
+/*
+Ingredients section
+*/
+
+ul {
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+    line-height: 200%;
+    list-style-type: square;
+
 }
 
-.heading {
-    font-family: 'Young Serif';
-    color: hsl(14, 45%, 36%);
-    font-size: x-large;
-}
-
+/*
+Instructions Section
+*/
 span {
     font-weight: 700;
+    color: hsl(30, 10%, 34%);
 }
+
+.normal {
+    font-weight: normal;
+    color: hsl(30, 10%, 34%);
+}
+
+ol {
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+}
+
+.space {
+    margin: 10px;
+}
+/*
+Nutrition Section
+*/
 .thick {
     font-weight: 700;
-    color: hsl(332, 51%, 32%);
+    color: hsl(14, 45%, 36%);
 }
 table {
     width: 100%;
+    line-height: 250%;
 }
 
-td, ingredients, instructions {
-    border-bottom: 1px solid #ddd;
-}
